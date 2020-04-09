@@ -3,6 +3,14 @@ This is an example of working code
 It is very much not finished  (and may not be runnabel from beginning to end)
 Finished code should (at least) be well organized (ideally all in functions)
 and run from start to finish without errors
+
+Data file was too big for the version of Github that I have
+You can run the first part of the code with no data
+Download data from Ipums
+https://usa.ipums.org/usa/index.shtml 
+Dataset: PLACE OF WORK AND TRAVEL TIME VARIABLES -- PERSON  
+Here are the variables I chose
+'PWSTATE2', 'PWCOUNTY', 'PWTYPE', 'TRANWORK'
 '''
 
 import pandas as pd 
